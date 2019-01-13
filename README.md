@@ -3,7 +3,8 @@
 Web Application complete with a RNN trained for Sentiment Analysis and Web API built, trained, and deployed through AWS SageMaker. Final Udacity Deep Learning Nanodegree project.
 
 # User Function
-The application provides a sentiment analysis solution for users - trained on the IMDB Large Movie review dataset.
+The application provides a sentiment analysis solution for users - trained on the [IMDb Dataset](http://ai.stanford.edu/~amaas/data/sentiment/).
+> Maas, Andrew L., et al. [Learning Word Vectors for Sentiment Analysis](http://ai.stanford.edu/~amaas/data/sentiment/). In _Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies_. Association for Computational Linguistics, 2011.
 
 Users input a review or sentence of his or her choosing into the web application and will receive whether or not the input's sentiment is Good or Bad.
 
