@@ -6,6 +6,8 @@ Web Application complete with a RNN trained for Sentiment Analysis and Web API b
 This project provides a sentiment analysis web application for users - trained on the [IMDb Dataset](http://ai.stanford.edu/~amaas/data/sentiment/). The project was built, trained, and deployed through Amazon's Web Services including: SageMaker, API GateWay, and Lambda Functions.
 > Maas, Andrew L., et al. [Learning Word Vectors for Sentiment Analysis](http://ai.stanford.edu/~amaas/data/sentiment/). In _Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies_. Association for Computational Linguistics, 2011.
 
+![Example](./deployed_example_usage.gif)
+
 ## User Interaction
 Users input a review or sentence of his or her choosing into the web application, clicks Submit, and will receive the review's predicted sentiment of Good or Bad.
 
