@@ -13476,7 +13476,7 @@ Saving to: ‘../data/aclImdb_v1.tar.gz’
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong><br>
-This method also results in a smaller vocabulary due to the stopwords being removed to tokenize the words. For example: moving and movie will now be considered the same "token". This makes for a smaller vocabularly; however, this also removes granularity from the data the model can learn for each review and may impact its accuracy on sentiment.</p>
+This method also converts all characters to lowercase using a regex, splits the reviews in individual words, removes stopwords (commonly used english words to ignore), and converts words into their base word or 'stem'. This also results in a smaller vocabulary due to the stopwords being removed and word stems being used to tokenize the words.</p>
 
 </div>
 </div>
